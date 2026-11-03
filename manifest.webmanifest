@@ -1,8 +1,9 @@
 {
+  "id": "/",
   "name": "Fixbam",
   "short_name": "Fixbam",
   "start_url": "/",
-  "display": "browser",
+  "display": "minimal-ui",
   "background_color": "#15262E",
   "theme_color": "#15262E",
   "icons": [
