@@ -39,7 +39,7 @@ main > section { margin: 64px 0; }
   font-family: "Outfit", sans-serif; font-weight: 500; font-size: 16px;
   padding: 7px 14px; border-radius: 999px; border: 1px solid var(--card-border); background: var(--card-bottom);
 }
-.no li::before { content: "✕"; color: var(--gold); margin-right: 8px; font-size: 13px; }
+.no li::before { content: "✓"; color: var(--gold); margin-right: 8px; font-size: 15px; font-weight: 700; }
 
 .card {
   background: linear-gradient(var(--card-top), var(--card-bottom));
