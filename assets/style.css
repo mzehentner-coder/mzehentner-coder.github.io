@@ -48,6 +48,10 @@ main > section { margin: 64px 0; }
 .app { display: grid; grid-template-columns: 80px 1fr; gap: 20px; align-items: start; max-width: 720px; }
 .app img { width: 80px; height: 80px; border-radius: 18px; }
 .app p { margin: 0 0 12px; }
+.app .stores { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 0 0 12px; }
+.app .badge { display: inline-block; line-height: 0; }
+.app .badge img { width: auto; height: 48px; border-radius: 0; }
+.tm { font-size: 12px; color: var(--muted); }
 .app .meta { font-size: 15px; color: var(--muted); }
 .btn {
   display: inline-block; margin-top: 4px; padding: 10px 20px; border-radius: 12px;
