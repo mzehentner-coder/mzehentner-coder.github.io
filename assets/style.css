@@ -72,6 +72,12 @@ main > section { margin: 64px 0; }
   transform: rotate(-8deg);
 }
 
+.name .card { max-width: 720px; }
+.name p { margin: 0 0 12px; }
+.name p:last-child { margin: 0; }
+.name em { font-style: normal; color: var(--gold); font-family: "Outfit", sans-serif; font-weight: 600; }
+.name .say { font-size: 19px; }
+
 .contact p { margin: 0; font-size: 19px; }
 
 .legal { max-width: 760px; }
